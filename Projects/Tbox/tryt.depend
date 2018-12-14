@@ -1,0 +1,167 @@
+# depslib dependency file v1.0
+1507263630 source:d:\programming\winapi\tbox\tbox-20170929t184426z-001\tbox\tbox.c
+	"tbox.h"
+	<stdio.h>
+
+1507263630 d:\programming\winapi\tbox\tbox-20170929t184426z-001\tbox\tbox.h
+	<windows.h>
+
+1506658640 source:d:\programming\winapi\tbox\tbox-20170929t184426z-001\tbox\trectangle.c
+	"trectangle.h"
+
+1506658640 d:\programming\winapi\tbox\tbox-20170929t184426z-001\tbox\trectangle.h
+	<windows.h>
+
+1507264136 source:d:\programming\winapi\tbox\tbox-20170929t184426z-001\tbox\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"trectangle.h"
+	"tbox.h"
+
+1507176319 source:d:\programming\winapi\tbox\tbox-20170929t184426z-001\tbox\tboxtinys.c
+	"tboxtinys.h"
+	"trectangle.h"
+	"tbox.h"
+	<stdlib.h>
+
+1506722933 d:\programming\winapi\tbox\tbox-20170929t184426z-001\tbox\tboxtinys.h
+
+1510227358 source:e:\experiments\tbox\stage2\tbox.c
+	"tbox.h"
+
+1510237900 e:\experiments\tbox\stage2\tbox.h
+	<windows.h>
+	<stdio.h>
+
+1507574766 source:e:\experiments\tbox\stage2\tboxtinys.c
+	"tboxtinys.h"
+	"trectangle.h"
+	"tbox.h"
+	<stdlib.h>
+
+1507574766 e:\experiments\tbox\stage2\tboxtinys.h
+
+1507574766 e:\experiments\tbox\stage2\trectangle.h
+	<windows.h>
+
+1510220328 source:e:\experiments\tbox\stage2\tbutton.c
+	"tbox.h"
+
+1510220480 source:e:\experiments\tbox\stage2\tcombobox.c
+	"tbox.h"
+
+1507574766 source:e:\experiments\tbox\stage2\trectangle.c
+	"trectangle.h"
+
+1510229468 source:e:\experiments\tbox\stage2\tstatic.c
+	"tbox.h"
+
+1510220607 source:e:\experiments\tbox\stage2\ttab.c
+	"tbox.h"
+
+1510231834 source:e:\experiments\tbox\stage2\twindow.c
+	"tbox.h"
+
+1510239388 source:e:\experiments\tbox\stage2\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"tbox.h"
+
+1511962065 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"tbox.h"
+
+1511434820 e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\tbox.h
+	"tcore.h"
+
+1511963160 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\tbox.c
+	"tbox.h"
+
+1510903791 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\tbutton.c
+	"tbox.h"
+
+1510253198 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\tcombobox.c
+	"tbox.h"
+
+1510819311 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\tevent.c
+
+1510844053 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\trectangle.c
+	"tbox.h"
+
+1511424178 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\tstatic.c
+	"tbox.h"
+
+1510253202 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\ttab.c
+	"tbox.h"
+
+1510253202 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\twindow.c
+	"tbox.h"
+
+1511959246 e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\tcore.h
+	<windows.h>
+	<stdio.h>
+
+1511947872 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\tcore.c
+	"tcore.h"
+
+1511962041 source:e:\experiments\tbox\secondrev-20171110t085429z-001\secondrev\tfont.c
+	"tcore.h"
+
+1514485202 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\main.cpp
+	<tchar.h>
+	<windows.h>
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	"tbox.h"
+
+1514484151 d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\tbox.h
+	"tcore.h"
+
+1514485117 d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\tcore.h
+	<windows.h>
+	<stdio.h>
+	<stdarg.h>
+
+1512017958 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\tbox.c
+	"tbox.h"
+
+1512017958 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\tbutton.c
+	"tbox.h"
+
+1512017958 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\tcombobox.c
+	"tbox.h"
+
+1514485131 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\tcore.c
+	"tcore.h"
+
+1512017958 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\tevent.c
+
+1514485147 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\tfont.c
+	"tcore.h"
+
+1512017962 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\trectangle.c
+	"tbox.h"
+
+1512017962 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\tstatic.c
+	"tbox.h"
+
+1512017962 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\ttab.c
+	"tbox.h"
+
+1514484229 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\tthreads.c
+	"tbox.h"
+
+1512017962 source:d:\programming\winapi\tbox\stage 5-20171220t190501z-001\stage 5\twindow.c
+	"tbox.h"
+
