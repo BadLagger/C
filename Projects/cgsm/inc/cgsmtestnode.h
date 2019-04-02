@@ -5,12 +5,7 @@
 
 #define CGSM_TEST_NODE_DEBUG
 
-class GsmNodeTest : public GsmNode<TestNodeStates>{
-    void NodeBgn();
-    void NodeWait();
-    void NodeSuspend();
-    void NodeOk();
-    void NodeErr();
+class GsmNodeTest : public GsmNode<NodeBaseStates>{
 public:
     GsmNodeTest();
 };

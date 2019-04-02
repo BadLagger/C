@@ -14,14 +14,9 @@ using namespace std;
 
 template <class NodeState>
 class GsmNode{
-protected:
-    map<NodeState, void (*)()> States;
-    NodeState Current;
+    NodeState currentState;
 public:
     GsmNode();
-    void addNodeState(NodeState, void (*)());
-    void updateNode();
-    void setNodeState(NodeState);
 };
 
 #endif // CGSMNODE_H_INCLUDED

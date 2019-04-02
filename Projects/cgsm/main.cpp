@@ -1,5 +1,5 @@
 #include "cgsmtestnode.h"
-
+#include <stdio.h>
 /*using namespace std;
 
 static void testSuspend(){
@@ -29,9 +29,13 @@ typedef enum
 
 int main()
 {
-    GsmNodeTest test;
-
-    test.updateNode();
+    NodeBaseStates state;
+    cout << "State: " << state.getState() << endl;
+    //GsmNodeTest test;
+  //  printf("Current test state: %d\r\n", test.getNodeState());
+   // cout << "Current test state: " << test.getState() << endl;
+   // test.setNodeState(static NodeBaseStates.SUSPEND);
+   // cout << "Current test state: " << test.getNodeState() << endl;
     /*test.updateNode();
     test.updateNode();
     test.updateNode();
