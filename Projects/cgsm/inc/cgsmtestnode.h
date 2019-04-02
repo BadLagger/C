@@ -5,9 +5,14 @@
 
 #define CGSM_TEST_NODE_DEBUG
 
-class GsmNodeTest : public GsmNode<NodeBaseStates>{
+class NodeTest : public Node<NodeTestStates>{
+protected:
+    bool advancedUpdate();
+    bool nodeTestBegin();
+    bool nodeTestEnd();
 public:
-    GsmNodeTest();
+    NodeTest() :  Node(){};
+    NodeTest(int state) :  Node(state){};
 };
 
 #endif // CGSMTESTNODE_H_INCLUDED

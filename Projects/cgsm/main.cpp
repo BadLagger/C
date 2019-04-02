@@ -29,8 +29,36 @@ typedef enum
 
 int main()
 {
-    NodeBaseStates state;
-    cout << "State: " << state.getState() << endl;
+    NodeBaseStates state(NodeTestStates::ERROR);
+    NodeBaseStates newState = state;
+    cout << "State: "     << state.getTxtState() << endl;
+    cout << "New State: " << newState.getTxtState() << endl;
+    newState = NodeBaseStates::OK;
+    cout << "New State Ok: " << newState.getTxtState() << endl;
+
+    NodeTestStates testState(NodeTestStates::TEST_BEGIN);
+    cout << "State test: "     << testState.getTxtState() << endl;
+
+    Node<NodeBaseStates> BasicNode(NodeBaseStates::ERROR);
+    BasicNode.update();
+    BasicNode.update();
+    BasicNode.update();
+    BasicNode.update();
+    BasicNode.update();
+    BasicNode.update();
+    BasicNode.update();
+    BasicNode.update();
+    BasicNode.update();
+    BasicNode.update();
+
+    NodeTest test(NodeTestStates::TEST_BEGIN);
+    test.update();
+    test.update();
+    test.update();
+    test.update();
+    test.update();
+    test.update();
+   // cout << "New State: " << newState.state << endl;
     //GsmNodeTest test;
   //  printf("Current test state: %d\r\n", test.getNodeState());
    // cout << "Current test state: " << test.getState() << endl;

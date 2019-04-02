@@ -13,10 +13,19 @@
 using namespace std;
 
 template <class NodeState>
-class GsmNode{
-    NodeState currentState;
+class Node{
+protected:
+    NodeState CurrentState;
+
+    virtual bool advancedUpdate();
+    virtual bool nodeOk();
+    virtual bool nodeError();
+    virtual bool nodeSuspend();
+    virtual bool nodeWait();
 public:
-    GsmNode();
+    Node();
+    Node(int state);
+    bool update();
 };
 
 #endif // CGSMNODE_H_INCLUDED

@@ -1,11 +1,35 @@
 #include "cgsmtestnode.h"
 
-GsmNodeTest::GsmNodeTest()
+bool NodeTest::advancedUpdate(){
+    switch(CurrentState.getState())
+    {
+      case NodeTestStates::TEST_BEGIN: return nodeTestBegin();
+      case NodeTestStates::TEST_END:   return nodeTestEnd();
+    }
+    return false;
+}
+
+bool NodeTest::nodeTestBegin(){
+#ifdef CGSM_TEST_NODE_DEBUG
+    cout << "NodeTest debug: begin" << endl;
+#endif
+    CurrentState = NodeTestStates::TEST_END;
+    return false;
+}
+
+bool NodeTest::nodeTestEnd(){
+#ifdef CGSM_TEST_NODE_DEBUG
+    cout << "NodeTest debug: end" << endl;
+#endif
+    CurrentState = NodeTestStates::TEST_BEGIN;
+    return false;
+}
+/*NodeTest::NodeTest()
 {
 #ifdef CGSM_TEST_NODE_DEBUG
     cout << "NodeTest debug: constructor" << endl;
 #endif
-}
+}*/
 
 /*void GsmNodeTest::NodeBgn()
 {
